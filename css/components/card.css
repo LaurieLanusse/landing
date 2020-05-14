@@ -1,0 +1,31 @@
+.part2 {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.card {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 2px 2px 2px 2px rgba(169, 169, 169, .5);
+}
+
+.card img {
+  height: 140px;
+}
+
+.card p {
+  color:rgba(169, 169, 169);
+}
